@@ -31,15 +31,16 @@ public class Even_Numbers_In_Range {
         for(int i=0;i<range.length;i++){
             int start = range[i][0];
             int end = range[i][1];
+            int answer=0;
 
             if(start==0){
-                psum[i]=0;
+                answer=psum[end];
             }
             else{
-                psum[i]=psum[end]-arr[start-1];
+                answer=psum[end]-arr[start-1];
             }
 
-            ans[i]=psum[i];
+            ans[i]=answer;
 
         }
 
