@@ -1,4 +1,6 @@
-public class Solution {
+package Sliding_Window_Contribution_Technique;
+
+public class SubArray_With_Least_Average {
     public int solve(int[] A, int B) {
         int n = A.length;
         int sum=0;
